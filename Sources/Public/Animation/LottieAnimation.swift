@@ -20,7 +20,7 @@ public enum CoordinateSpace: Int, Codable, Sendable {
 ///
 /// A `LottieAnimation` holds all of the animation data backing a Lottie Animation.
 /// Codable, see JSON schema [here](https://github.com/airbnb/lottie-web/tree/master/docs/json).
-public class LottieAnimation: Codable, DictionaryInitializable {
+open class LottieAnimation: Codable, DictionaryInitializable {
 
   // MARK: Lifecycle
 
