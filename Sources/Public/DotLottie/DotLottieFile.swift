@@ -10,7 +10,7 @@ import Foundation
 // MARK: - DotLottieFile
 
 /// Detailed .lottie file structure
-public class DotLottieFile {
+open class DotLottieFile {
 
   // MARK: Lifecycle
 
